@@ -4,6 +4,9 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+import { Ion } from "cesium";
+Ion.defaultAccessToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiIyMzEyYTM1MS1jZGVlLTQzNzMtYjc2MS1mMzEyNGZkNDMxNzciLCJpZCI6MjgwMzI2LCJpYXQiOjE3NDA5MTI5MzF9.bgg9hLUy64wiC4RJVwOqFEHi-DaMb2VKXQj46zlvqCc";
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
